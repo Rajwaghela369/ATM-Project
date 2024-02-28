@@ -30,7 +30,7 @@ class Transaction():
                 record['Transactions'].append(self.transaction)  # append transaction
         
                 record['Balance'] -= amount  # update balance
-                print(f'Transcation successful! \namount withdrawed!')
+                print(f'Transcation successful! \n amount withdrawed!')
                 Database(self.user_id, self.pin).save_records(records)  # update user record in database
                 break        
         else: 
@@ -54,7 +54,7 @@ class Transaction():
                 record['Transactions'].append(self.transaction)  # append transaction
         
                 record['Balance'] += amount
-                print(f'Transcation successful! \namount credited to your account!')  # update user record in database
+                print(f'Transcation successful! \n amount credited to your account!')  # update user record in database
                 Database(self.user_id, self.pin).save_records(records)
                 break        
         else: 

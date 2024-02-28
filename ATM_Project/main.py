@@ -61,10 +61,10 @@ class ATM():
 
         self.user_id = st.text_input(label = 'User ID', placeholder ='Enter your User ID', max_chars = 12)
         self.pin = st.text_input(label = 'Pin', placeholder = 'Enter your Pin', max_chars = 4, type = 'password')
-        self.login = st.button(label = 'Login', type = 'primary')
+        self.login_button = st.button(label = 'Login', type = 'primary')
 
         # Check login credentials
-        if self.login: 
+        if self.login_button: 
             auth, _ = Account_management(user_id = self.user_id, pin = self.pin).user_authentication()
             if auth:
                 st.session_state['user_id'] = self.user_id
