@@ -1,0 +1,255 @@
+- Balance: 4278
+  Bank_Acc: DE1750090801
+  Bank_Name: Sparkasse
+  City: Berlin
+  First_Name: John
+  Last_Name: Doe
+  Pin: ABDE
+  Transactions:
+  - Type: credit
+    amount: 54
+    date: 2024-02-27
+  - Type: credit
+    amount: 54
+    date: 2024-02-27
+  - Type: credit
+    amount: 54
+    date: 2024-02-27
+  - Type: credit
+    amount: 54
+    date: 2024-02-27
+  - Type: credit
+    amount: 54
+    date: 2024-02-27
+  - Type: credit
+    amount: 54
+    date: 2024-02-27
+  - Type: credit
+    amount: 54
+    date: 2024-02-27
+  - Type: debit
+    amount: 50
+    date: 2024-02-27
+  - Type: debit
+    amount: 50
+    date: 2024-02-27
+  User_ID: D17889
+- Balance: 8895
+  Bank_Acc: DE1750191801
+  Bank_Name: Sparkasse
+  City: Munich
+  First_Name: Marcus
+  Last_Name: Rodriguez
+  Pin: DDEE
+  Transactions:
+  - Type: credit
+    amount: 505
+    date: 2024-02-27
+  - Type: credit
+    amount: 1000
+    date: 2024-02-27
+  User_ID: D17880
+- Balance: 10340
+  Bank_Acc: DE1722291801
+  Bank_Name: Commerzbank
+  City: Stuttgart
+  First_Name: Julius
+  Last_Name: Genevieve
+  Pin: GFEG
+  Transactions:
+  - Type: debit
+    amount: 80
+    date: 2024-02-27
+  - Type: debit
+    amount: 80
+    date: 2024-02-27
+  - Type: credit
+    amount: 500
+    date: 2024-02-28
+  User_ID: D17879
+- Balance: 3000
+  Bank_Acc: DE1753191861
+  Bank_Name: Sparkasse
+  City: 'Brandenburg:'
+  First_Name: Connor
+  Last_Name: Davis
+  Pin: HCGH
+  Transactions: []
+  User_ID: D17220
+- Balance: 10740
+  Bank_Acc: DE1750919199
+  Bank_Name: Commerzbank
+  City: 'Berlin:'
+  First_Name: Adam
+  Last_Name: Johnson
+  Pin: GHGI
+  Transactions:
+  - Type: credit
+    amount: 700
+    date: 2024-02-28
+  - Type: credit
+    amount: 3000
+    date: 2024-02-28
+  - Type: credit
+    amount: 2040
+    date: 2024-02-28
+  User_ID: D17451
+- Balance: 20000
+  Bank_Acc: DE1723145868
+  Bank_Name: Deutsche Bank
+  City: Hamburg
+  First_Name: Sarah
+  Last_Name: Smith
+  Pin: FEFE
+  Transactions: []
+  User_ID: D17331
+- Balance: 9000
+  Bank_Acc: DE1750771871
+  Bank_Name: Deutsche Bank
+  City: Aachen
+  First_Name: Emily
+  Last_Name: Martinez
+  Pin: DHEF
+  Transactions: []
+  User_ID: D17199
+- Balance: 17155
+  Bank_Acc: DE1760891891
+  Bank_Name: Volksbank
+  City: Erlangen
+  First_Name: Emily
+  Last_Name: Thompson
+  Pin: CDGE
+  Transactions: []
+  User_ID: D17872
+- Balance: 20425
+  Bank_Acc: DE1750571851
+  Bank_Name: Sparkasse
+  City: Aachen
+  First_Name: Jasmine
+  Last_Name: Patel
+  Pin: GGFI
+  Transactions:
+  - Type: credit
+    amount: 2020
+    date: 2024-02-28
+  - Type: debit
+    amount: 30
+    date: 2024-02-28
+  - Type: debit
+    amount: 30
+    date: 2024-02-28
+  - Type: debit
+    amount: 30
+    date: 2024-02-28
+  - Type: debit
+    amount: 30
+    date: 2024-02-28
+  - Type: debit
+    amount: 30
+    date: 2024-02-28
+  User_ID: D17222
+- Balance: 11200
+  Bank_Acc: DE1750444821
+  Bank_Name: Commerzbank
+  City: Jena
+  First_Name: Olivia
+  Last_Name: Kim
+  Pin: DCBA
+  Transactions:
+  - Type: credit
+    amount: 200
+    date: 2024-02-28
+  - Type: debit
+    amount: 500
+    date: 2024-02-28
+  - Type: credit
+    amount: 200
+    date: 2024-02-28
+  - Type: debit
+    amount: 500
+    date: 2024-02-28
+  - Type: debit
+    amount: 40
+    date: 2024-02-28
+  - Type: debit
+    amount: 40
+    date: 2024-02-28
+  - Type: debit
+    amount: 40
+    date: 2024-02-28
+  - Type: debit
+    amount: 40
+    date: 2024-02-28
+  - Type: debit
+    amount: 40
+    date: 2024-02-28
+  User_ID: D17575
+- Balance: 15400
+  Bank_Acc: DE1740141231
+  Bank_Name: Volksbank
+  City: Erlangen
+  First_Name: Ethan
+  Last_Name: Campbell
+  Pin: CBCD
+  Transactions:
+  - Type: credit
+    amount: 300
+    date: 2024-02-28
+  - Type: credit
+    amount: 300
+    date: 2024-02-28
+  - Type: credit
+    amount: 300
+    date: 2024-02-28
+  - Type: credit
+    amount: 300
+    date: 2024-02-28
+  - Type: credit
+    amount: 300
+    date: 2024-02-28
+  - Type: credit
+    amount: 300
+    date: 2024-02-28
+  - Type: credit
+    amount: 300
+    date: 2024-02-28
+  - Type: credit
+    amount: 300
+    date: 2024-02-28
+  User_ID: D17464
+- Balance: 8400
+  Bank_Acc: DE1756194221
+  Bank_Name: Deutsche Bank
+  City: Jena
+  First_Name: Caleb
+  Last_Name: Lewis
+  Pin: BBDD
+  Transactions:
+  - Type: credit
+    amount: 400
+    date: 2024-02-28
+  - Type: credit
+    amount: 400
+    date: 2024-02-28
+  - Type: credit
+    amount: 400
+    date: 2024-02-28
+  - Type: credit
+    amount: 400
+    date: 2024-02-28
+  - Type: credit
+    amount: 400
+    date: 2024-02-28
+  - Type: credit
+    amount: 400
+    date: 2024-02-28
+  - Type: credit
+    amount: 400
+    date: 2024-02-28
+  - Type: credit
+    amount: 400
+    date: 2024-02-28
+  - Type: credit
+    amount: 400
+    date: 2024-02-28
+  User_ID: D17785
