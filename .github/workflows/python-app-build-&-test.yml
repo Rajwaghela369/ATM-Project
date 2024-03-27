@@ -29,7 +29,7 @@ jobs:
 
     - name: Run Streamlit
       run: |
-        streamlit build main.py   # Replace 'main.py' with the filename of your Streamlit application
+        streamlit run main.py   
 
   test:
     runs-on: ubuntu-latest
