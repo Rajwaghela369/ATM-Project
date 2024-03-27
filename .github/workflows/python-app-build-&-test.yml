@@ -29,7 +29,6 @@ jobs:
 
     - name: Run Streamlit
       run: |
-        cd ATM_Project
         pytest test.py  
 
   test:
