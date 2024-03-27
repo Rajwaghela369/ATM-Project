@@ -28,6 +28,7 @@ jobs:
 
     - name: Run Streamlit
       run: | 
+        cd ATM_Project
         python run test.py
          
 
@@ -51,6 +52,7 @@ jobs:
 
     - name: Run tests
       run: |
+        cd ATM_Project
         python run test.py
 
   deploy:
