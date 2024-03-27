@@ -29,6 +29,7 @@ jobs:
 
     - name: Run Streamlit
       run: |
+        cd ATM_Project/main.py
         streamlit run main.py   
 
   test:
