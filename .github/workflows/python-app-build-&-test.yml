@@ -29,7 +29,8 @@ jobs:
 
     - name: Run test
       run: |
-        python run ATM_Project/test.py
+        cd ATM_Project
+        python test.py
 
   test:
     runs-on: ubuntu-latest
