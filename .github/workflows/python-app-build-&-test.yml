@@ -28,7 +28,7 @@ jobs:
 
     - name: Run Streamlit
       run: | 
-        pip install streamlit
+        python run test.py
          
 
   test:
@@ -51,7 +51,7 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest test.py
+        python run test.py
 
   deploy:
     runs-on: ubuntu-latest
