@@ -24,13 +24,12 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pytest
+        pip install streamlit  # Install Streamlit
+        pip install pytest     # Install pytest
 
-    - name: Run Streamlit
-      run: | 
-        cd ATM_Project
-        python run test.py
-         
+    - name: Run test
+      run: |
+        python run ATM_Project/test.py
 
   test:
     runs-on: ubuntu-latest
@@ -48,12 +47,12 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pytest
+        pip install pytest     # Install pytest
 
     - name: Run tests
       run: |
         cd ATM_Project
-        python run test.py
+        python test.py
 
   deploy:
     runs-on: ubuntu-latest
