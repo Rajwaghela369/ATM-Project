@@ -55,7 +55,7 @@
   City: Stuttgart
   First_Name: Julius
   Last_Name: Genevieve
-  Pin: GFEG
+  Pin: GGHH
   Transactions:
   - Type: debit
     amount: 80
@@ -82,7 +82,7 @@
   City: 'Berlin:'
   First_Name: Adam
   Last_Name: Johnson
-  Pin: GHGI
+  Pin: HHII
   Transactions:
   - Type: credit
     amount: 700
@@ -148,7 +148,7 @@
     amount: 30
     date: 2024-02-28
   User_ID: D17222
-- Balance: 11200
+- Balance: 11160
   Bank_Acc: DE1750444821
   Bank_Name: Commerzbank
   City: Jena
@@ -183,6 +183,9 @@
   - Type: debit
     amount: 40
     date: 2024-02-28
+  - Type: debit
+    amount: 40
+    date: 2024-03-27
   User_ID: D17575
 - Balance: 15400
   Bank_Acc: DE1740141231
@@ -217,7 +220,7 @@
     amount: 300
     date: 2024-02-28
   User_ID: D17464
-- Balance: 8400
+- Balance: 8800
   Bank_Acc: DE1756194221
   Bank_Name: Deutsche Bank
   City: Jena
@@ -252,4 +255,7 @@
   - Type: credit
     amount: 400
     date: 2024-02-28
+  - Type: credit
+    amount: 400
+    date: 2024-03-27
   User_ID: D17785

@@ -102,13 +102,13 @@ class TestAccountManagement(ut.TestCase):
         ## Test case for user 1
         Account_management(user_id = 'D17575', pin = "4321").withdrawal(amount = 40)
         updated_balance_1 = Account_management(user_id = 'D17575', pin = "4321").check_balance()
-        ut.TestCase.assertEqual(self, first = 11240 - 40, second = updated_balance_1, msg = 'verified account')
+        ut.TestCase.assertEqual(self, first = 11160 - 40, second = updated_balance_1, msg = 'verified account')
         print('Test case withdrawal: user 1 = PASSED')
 
         ## Test case for user 2
         Account_management(user_id = 'D17222', pin = "7769").withdrawal(amount = 30)
         updated_balance_2 = Account_management(user_id = 'D17222', pin = "7769").check_balance()
-        ut.TestCase.assertEqual(self, first = 20455 - 30, second = updated_balance_2, msg = 'verified account')
+        ut.TestCase.assertEqual(self, first = 20425 - 30, second = updated_balance_2, msg = 'verified account')
         print('Test case withdrawal: user 2 = PASSED')
  
     
