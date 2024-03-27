@@ -30,7 +30,7 @@ jobs:
     - name: Run Streamlit
       run: |
         cd ATM_Project
-        streamlit run main.py   
+        pytest test.py  
 
   test:
     runs-on: ubuntu-latest
