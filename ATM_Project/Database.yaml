@@ -55,7 +55,7 @@
   City: Stuttgart
   First_Name: Julius
   Last_Name: Genevieve
-  Pin: GGHH
+  Pin: GFEG
   Transactions:
   - Type: debit
     amount: 80
@@ -82,7 +82,7 @@
   City: 'Berlin:'
   First_Name: Adam
   Last_Name: Johnson
-  Pin: HHII
+  Pin: GHGI
   Transactions:
   - Type: credit
     amount: 700

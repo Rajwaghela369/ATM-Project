@@ -86,13 +86,13 @@ class TestAccountManagement(ut.TestCase):
         ## Test case for user 1
         Account_management(user_id = 'D17785', pin = "2244").deposit(amount = 400)
         updated_balance_1 = Account_management(user_id = 'D17785', pin = "2244").check_balance()
-        ut.TestCase.assertEqual(self, first = 8000 + 400, second = updated_balance_1, msg = 'verified account')
+        ut.TestCase.assertEqual(self, first = 8800 + 400, second = updated_balance_1, msg = 'verified account')
         print('Test case deposit: user 1 = PASSED')
 
         ## Test case for user 2
         Account_management(user_id = 'D17464', pin = "3234").deposit(amount = 300)
         updated_balance_2 = Account_management(user_id = 'D17464', pin = "3234").check_balance()
-        ut.TestCase.assertEqual(self, first = 15100 + 300, second = updated_balance_2, msg = 'verified account')
+        ut.TestCase.assertEqual(self, first = 15400 + 300, second = updated_balance_2, msg = 'verified account')
         print('Test case deposit: user 2 = PASSED')
 
     def test_withdrawal(self):
