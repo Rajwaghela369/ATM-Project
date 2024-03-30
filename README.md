@@ -13,15 +13,25 @@ I employed SonarQube to conduct automated analyses of the ATM project's source c
 
 The following metrics offer a comprehensive assessment of the code by SonarCloud:
   [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Rajwaghela369_ATM-Project&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Rajwaghela369_ATM-Project)
+  
   [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Rajwaghela369_ATM-Project&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Rajwaghela369_ATM-Project)
+  
   [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Rajwaghela369_ATM-Project&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Rajwaghela369_ATM-Project) 
+  
   [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Rajwaghela369_ATM-Project&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Rajwaghela369_ATM-Project) 
+  
   [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=Rajwaghela369_ATM-Project&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=Rajwaghela369_ATM-Project) 
+  
   [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Rajwaghela369_ATM-Project&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Rajwaghela369_ATM-Project) 
+  
   [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Rajwaghela369_ATM-Project&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=Rajwaghela369_ATM-Project) 
+  
   [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Rajwaghela369_ATM-Project&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Rajwaghela369_ATM-Project)
+  
   [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Rajwaghela369_ATM-Project&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=Rajwaghela369_ATM-Project) 
+  
   [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Rajwaghela369_ATM-Project&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Rajwaghela369_ATM-Project)
+  
   [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Rajwaghela369_ATM-Project&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Rajwaghela369_ATM-Project)
   
 ## CCD
