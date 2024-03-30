@@ -47,20 +47,27 @@ I have included a main [sheet](https://github.com/Rajwaghela369/ATM-Project/blob
 
 ## BUILD AND CI/CD
 ## UNIT TESTS
+
+I have developed a comprehensive unit testing (file: [test.py](https://github.com/Rajwaghela369/ATM-Project/blob/main/ATM_Project/test.py)) suite for the ATM project to ensure the reliability and functionality of its key features.
+
+The test suite consists of 6 test cases, each specifically targeting different functionalities of the ATM application, including user authentication, account details retrieval, balance checking, depositing, withdrawal, and PIN change.
+
+Upon executing the unit tests, all test cases have successfully passed, indicating that the implemented features are working as intended and meeting the specified requirements.
+
+For a detailed overview of the test cases and their outcomes, refer to the provided unit testing code, where each test case is meticulously designed to verify the correctness and robustness of the ATM functionalities.
+
+Additionally, you can find a summary of the passed test cases in the test execution [snapshot](https://github.com/Rajwaghela369/ATM-Project/blob/main/Test_outputs/tests_result.png), ensuring the thorough validation of the application's behavior before deployment.
+
 ## IDE Visual Studio Code 
 
 I have utilized Visual Studio Code (VS Code) as the Integrated Development Environment (IDE) for this project on my Mac.
 Some useful shortcuts in VS Code that I found particularly helpful:
 
-Cmd + Shift + B: Build project
-
-F5: Run or debug the application
-
-Cmd + /: Comment/uncomment lines of code
-
-Cmd + D: Select next occurrence of the current word
-
-Cmd + F: Search within the file
+  1. Cmd + Shift + B: Build project
+  2. F5: Run or debug the application
+  3. Cmd + /: Comment/uncomment lines of code
+  4. Cmd + D: Select next occurrence of the current word
+  5. Cmd + F: Search within the file
 
 These shortcuts and features contribute to a smoother development experience in Visual Studio Code for the ATM project on macOS.
 
