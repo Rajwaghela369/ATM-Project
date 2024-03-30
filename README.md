@@ -19,8 +19,6 @@ The following metrics offer a comprehensive assessment of the code by SonarCloud
   
   Code Smells: [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Rajwaghela369_ATM-Project&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Rajwaghela369_ATM-Project) 
   
-  Coverage: [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Rajwaghela369_ATM-Project&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Rajwaghela369_ATM-Project) 
-  
   Duplicated Lines: [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=Rajwaghela369_ATM-Project&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=Rajwaghela369_ATM-Project) 
   
   Lines of Code: [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Rajwaghela369_ATM-Project&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Rajwaghela369_ATM-Project) 
