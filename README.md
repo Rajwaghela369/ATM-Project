@@ -53,10 +53,15 @@ I have utilized Visual Studio Code (VS Code) as the Integrated Development Envir
 Some useful shortcuts in VS Code that I found particularly helpful:
 
 Cmd + Shift + B: Build project
+
 F5: Run or debug the application
+
 Cmd + /: Comment/uncomment lines of code
+
 Cmd + D: Select next occurrence of the current word
+
 Cmd + F: Search within the file
+
 These shortcuts and features contribute to a smoother development experience in Visual Studio Code for the ATM project on macOS.
 
 
