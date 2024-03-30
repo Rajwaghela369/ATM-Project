@@ -39,7 +39,7 @@ I have included a main [sheet](https://github.com/Rajwaghela369/ATM-Project/blob
 
   1. The code is split into separate modules, each handling specific tasks. This approach enhances understanding and maintainability by isolating functionality into cohesive units.
 
-  2. Meaningful names are used for variables and functions, enhancing code readability and comprehension. For example, variables like ([eg]2. (https://github.com/Rajwaghela369/ATM-Project/blob/670e259c3710487df09b4f0725d05ac47c1904b8/ATM_Project/Authentication.py#L34)) and functions like ([eg](https://github.com/Rajwaghela369/ATM-Project/blob/670e259c3710487df09b4f0725d05ac47c1904b8/ATM_Project/Account.py#L39)) convey their purpose clearly.
+  2. Meaningful names are used for variables and functions, enhancing code readability and comprehension. For example, variables like ([eg](https://github.com/Rajwaghela369/ATM-Project/blob/670e259c3710487df09b4f0725d05ac47c1904b8/ATM_Project/Authentication.py#L34)) and functions like ([eg](https://github.com/Rajwaghela369/ATM-Project/blob/670e259c3710487df09b4f0725d05ac47c1904b8/ATM_Project/Account.py#L39)) convey their purpose clearly.
 
   3.  Standardized naming conventions are followed consistently across the codebase, ensuring clarity and uniformity. For instance, boolean flags like ["valid"](https://github.com/Rajwaghela369/ATM-Project/blob/670e259c3710487df09b4f0725d05ac47c1904b8/ATM_Project/Database.py#L43) are used for user verification, adhering to established conventions.
 
