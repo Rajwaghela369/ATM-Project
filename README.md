@@ -5,8 +5,8 @@ Automated Teller Machine Program.
 This repository contains the source code and resources for an ATM (Automated Teller Machine) simulation project. The project aims to replicate basic functionalities of an ATM system, allowing users to perform various banking operations such as checking balance, depositing money, withdrawing cash, changing PIN, and viewing transaction statements.
 ## GIT
 I consistently utilized Git to commit and push my progress for the ATM project to GitHub, ensuring regular updates to the repository. My workflow primarily involved working in Visual Studio Code, where I developed and tested the code. I maintained a consistent cadence of uploading code to GitHub through Visual Studio Code, reflecting my contributions and project activity on the GitHub [contribution chart](https://github.com/Rajwaghela369).
-## UML
-## DDD
+## UML Diagrams
+## DDD 
 ## METRICS
   
 I employed SonarQube to conduct automated analyses of the ATM project's source code, utilizing a comprehensive set of criteria to evaluate code quality. SonarQube, an open-source tool, facilitates continuous code quality inspection by employing static code analysis to identify bugs, code smells, and other key metrics.
@@ -33,7 +33,7 @@ The following metrics offer a comprehensive assessment of the code by SonarCloud
   
   Vulnerabilities: [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Rajwaghela369_ATM-Project&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Rajwaghela369_ATM-Project)
   
-## CCD
+## Clean Code Developement 
 ## BUILD AND CI/CD
 ## UNIT TESTS
 ## IDE
