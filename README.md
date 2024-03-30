@@ -46,6 +46,18 @@ I have included a main [sheet](https://github.com/Rajwaghela369/ATM-Project/blob
   4. Informative comments like ([eg](https://github.com/Rajwaghela369/ATM-Project/blob/670e259c3710487df09b4f0725d05ac47c1904b8/ATM_Project/Authentication.py#L32C12-L32C34)) are provided throughout the codebase to clarify complex logic or functionalities. These comments serve as valuable documentation, aiding others in understanding the code better and facilitating collaboration.
 
 ## BUILD AND CI/CD
+
+For my project, I've seamlessly integrated the build and Continuous Integration/Continuous Deployment (CI/CD) processes using GitLab CI.
+
+Given that my project is based on Python, I opted for GitLab CI as the build management tool.
+
+In the build stage, I've configured GitLab CI to handle the build process. However, due to limitations with GUI-based projects in GitLab CI, I focused the build process specifically on key Python files like Database.py, Authentication.py, & Transcations.py (present in ATM_Project Folder).
+
+In the subsequent test stage, I executed the test.py file to thoroughly test the functionality of my project.
+
+Throughout the CI/CD pipeline, each stage is meticulously configured and automated using the GitLab CI configuration file (`python-app-build-&-test.yml`). This file not only defines the build, test, and deployment stages but also includes necessary dependencies to trigger and streamline the entire CI/CD pipeline.
+Here is workflow [output](https://github.com/Rajwaghela369/ATM-Project/actions/runs/8453946398).
+
 ## UNIT TESTS
 
 I have developed a comprehensive unit testing (file: [test.py](https://github.com/Rajwaghela369/ATM-Project/blob/main/ATM_Project/test.py)) suite for the ATM project to ensure the reliability and functionality of its key features.
@@ -80,3 +92,19 @@ Advantages of using Visual Studio Code for development on macOS:
 
 ## DSL 
 ## FUNCTIONAL PROGRAMMING
+
+The provided code exhibits functional programming principles through its modular and reusable design. Let's delve into some examples of functional programming aspects within the code:
+
+Modularity: The code is divided into multiple modules/classes such as ATM, Database, Authentication, Transaction, and Account_management. Each module/class serves a specific purpose and encapsulates related functionalities. This promotes modularity and code organization.
+
+Pure Functions: Many functions within the code exhibit the characteristics of pure functions. For instance, methods like [process_withdrawal(https://github.com/Rajwaghela369/ATM-Project/blob/514b5325e8934db92f834e09473e8b7fce43a6ce/ATM_Project/Transactions.py#L17)] and [process_deposit(https://github.com/Rajwaghela369/ATM-Project/blob/514b5325e8934db92f834e09473e8b7fce43a6ce/ATM_Project/Transactions.py#L41)] in the Transaction class take input parameters and produce output without modifying any external state. They rely only on their input arguments to produce the output.
+
+Immutability: Immutable data structures are used in several places. For instance, in the Database class, when [updating](https://github.com/Rajwaghela369/ATM-Project/blob/514b5325e8934db92f834e09473e8b7fce43a6ce/ATM_Project/Database.py#L59) user records, a new copy of the records is created with the necessary modifications instead of modifying the existing records directly.
+
+Higher-Order Functions: While not explicitly demonstrated in the provided code, higher-order functions can be implemented in Python. These are functions that take other functions as arguments or return functions as results. Functional programming often encourages the use of higher-order functions for abstraction and code reuse.
+
+Avoidance of Side Effects: Functional programming emphasizes the avoidance of side effects, where functions don't modify state outside their scope. While the provided code interacts with external files (such as YAML database files) and prints messages to the console, it generally adheres to minimizing side effects by encapsulating state changes within functions.
+
+Statelessness: The ATM class utilizes Streamlit's session state to maintain the [current state](https://github.com/Rajwaghela369/ATM-Project/blob/514b5325e8934db92f834e09473e8b7fce43a6ce/ATM_Project/main.py#L56) of the application. By managing state internally and not relying on external or global state, the code remains more predictable and easier to reason about.
+
+These are some of the functional programming principles observed in the provided code. By adhering to these principles, the code becomes more maintainable, testable, and easier to reason about.
