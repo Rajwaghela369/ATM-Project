@@ -47,6 +47,24 @@ I have included a main [sheet](https://github.com/Rajwaghela369/ATM-Project/blob
 
 ## BUILD AND CI/CD
 ## UNIT TESTS
-## IDE
+## IDE Visual Studio Code 
+
+I have utilized Visual Studio Code (VS Code) as the Integrated Development Environment (IDE) for this project on my Mac.
+Some useful shortcuts in VS Code that I found particularly helpful:
+
+Cmd + Shift + B: Build project
+F5: Run or debug the application
+Cmd + /: Comment/uncomment lines of code
+Cmd + D: Select next occurrence of the current word
+Cmd + F: Search within the file
+These shortcuts and features contribute to a smoother development experience in Visual Studio Code for the ATM project on macOS.
+
+
+Advantages of using Visual Studio Code for development on macOS:
+
+  1. Cross-platform compatibility for seamless development across different operating systems.
+  2. Extensive plugin ecosystem for customizable functionality and enhanced productivity.
+  3. Active community support for learning, collaboration, and access to helpful resources.
+
 ## DSL 
 ## FUNCTIONAL PROGRAMMING
