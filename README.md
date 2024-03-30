@@ -91,20 +91,23 @@ Advantages of using Visual Studio Code for development on macOS:
   3. Active community support for learning, collaboration, and access to helpful resources.
 
 ## DSL 
+
+The ATM project facilitates banking operations like withdrawals, deposits, balance inquiries, and PIN changes. It provides a user-friendly interface for customers to interact with their accounts securely. The code is structured into classes like ATM, Database, Authentication, Transaction, and Account_management, each handling specific functionalities to ensure modularity and maintainability. Functional programming principles such as modularity, immutability, and pure functions are emphasized for robustness and ease of maintenance. The code focuses on efficient state management within the application, ensuring a smooth user experience without the need for domain-specific language or external DSLs.
+
 ## FUNCTIONAL PROGRAMMING
 
 The provided code exhibits functional programming principles through its modular and reusable design. Let's delve into some examples of functional programming aspects within the code:
 
-Modularity: The code is divided into multiple modules/classes such as ATM, Database, Authentication, Transaction, and Account_management. Each module/class serves a specific purpose and encapsulates related functionalities. This promotes modularity and code organization.
+  1. Modularity: The code is divided into multiple modules/classes such as ATM, Database, Authentication, Transaction, and Account_management. Each module/class serves a specific purpose and encapsulates related functionalities. This promotes modularity and code organization.
 
-Pure Functions: Many functions within the code exhibit the characteristics of pure functions. For instance, methods like [process_withdrawal](https://github.com/Rajwaghela369/ATM-Project/blob/514b5325e8934db92f834e09473e8b7fce43a6ce/ATM_Project/Transactions.py#L17) and [process_deposit](https://github.com/Rajwaghela369/ATM-Project/blob/514b5325e8934db92f834e09473e8b7fce43a6ce/ATM_Project/Transactions.py#L41) in the Transaction class take input parameters and produce output without modifying any external state. They rely only on their input arguments to produce the output.
+  2. Pure Functions: Many functions within the code exhibit the characteristics of pure functions. For instance, methods like [process_withdrawal](https://github.com/Rajwaghela369/ATM-Project/blob/514b5325e8934db92f834e09473e8b7fce43a6ce/ATM_Project/Transactions.py#L17) and [process_deposit](https://github.com/Rajwaghela369/ATM-Project/blob/514b5325e8934db92f834e09473e8b7fce43a6ce/ATM_Project/Transactions.py#L41) in the Transaction class take input parameters and produce output without modifying any external state. They rely only on their input arguments to produce the output.
 
-Immutability: Immutable data structures are used in several places. For instance, in the Database class, when [updating](https://github.com/Rajwaghela369/ATM-Project/blob/514b5325e8934db92f834e09473e8b7fce43a6ce/ATM_Project/Database.py#L59) user records, a new copy of the records is created with the necessary modifications instead of modifying the existing records directly.
+  3. Immutability: Immutable data structures are used in several places. For instance, in the Database class, when [updating](https://github.com/Rajwaghela369/ATM-Project/blob/514b5325e8934db92f834e09473e8b7fce43a6ce/ATM_Project/Database.py#L59) user records, a new copy of the records is created with the necessary modifications instead of modifying the existing records directly.
 
-Higher-Order Functions: While not explicitly demonstrated in the provided code, higher-order functions can be implemented in Python. These are functions that take other functions as arguments or return functions as results. Functional programming often encourages the use of higher-order functions for abstraction and code reuse.
+  4. Higher-Order Functions: While not explicitly demonstrated in the provided code, higher-order functions can be implemented in Python. These are functions that take other functions as arguments or return functions as results. Functional programming often encourages the use of higher-order functions for abstraction and code reuse.
 
-Avoidance of Side Effects: Functional programming emphasizes the avoidance of side effects, where functions don't modify state outside their scope. While the provided code interacts with external files (such as YAML database files) and prints messages to the console, it generally adheres to minimizing side effects by encapsulating state changes within functions.
+  5. Avoidance of Side Effects: Functional programming emphasizes the avoidance of side effects, where functions don't modify state outside their scope. While the provided code interacts with external files (such as YAML database files) and prints messages to the console, it generally adheres to minimizing side effects by encapsulating state changes within functions.
 
-Statelessness: The ATM class utilizes Streamlit's session state to maintain the [current state](https://github.com/Rajwaghela369/ATM-Project/blob/514b5325e8934db92f834e09473e8b7fce43a6ce/ATM_Project/main.py#L56) of the application. By managing state internally and not relying on external or global state, the code remains more predictable and easier to reason about.
+  6. Statelessness: The ATM class utilizes Streamlit's session state to maintain the [current state](https://github.com/Rajwaghela369/ATM-Project/blob/514b5325e8934db92f834e09473e8b7fce43a6ce/ATM_Project/main.py#L56) of the application. By managing state internally and not relying on external or global state, the code remains more predictable and easier to reason about.
 
 These are some of the functional programming principles observed in the provided code. By adhering to these principles, the code becomes more maintainable, testable, and easier to reason about.
