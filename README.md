@@ -35,15 +35,16 @@ The following metrics offer a comprehensive assessment of the code by SonarCloud
   
 ## Clean Code Developement 
 
-I have included a main [sheet](https://github.com/Rajwaghela369/ATM-Project/blob/main/Cheat%20Sheet/sheet.txt) that served as a guide throughout the development of this application.
+I have included a main [sheet](https://github.com/Rajwaghela369/ATM-Project/blob/main/Cheat%20Sheet/sheet.txt) that served as a guide throughout the development of this application.  Here are some key points:
 
-Applied constants to prevent redundant code repetition. For example, constants were utilized to avoid duplicating code snippets.
+  1. The code is split into separate modules, each handling specific tasks. This approach enhances understanding and maintainability by isolating functionality into cohesive units.
 
-Ensured meaningful names for variables and functions, enhancing code readability and understanding. For instance, variables and functions were named descriptively to convey their purpose clearly.
+  2. Meaningful names are used for variables and functions, enhancing code readability and comprehension. For example, variables like ([eg]2. (https://github.com/Rajwaghela369/ATM-Project/blob/670e259c3710487df09b4f0725d05ac47c1904b8/ATM_Project/Authentication.py#L34)) and functions like ([eg](https://github.com/Rajwaghela369/ATM-Project/blob/670e259c3710487df09b4f0725d05ac47c1904b8/ATM_Project/Account.py#L39)) convey their purpose clearly.
 
-Followed standardized naming conventions for consistency and clarity across the codebase. For instance, camelCase was employed for variable and function names.
+  3.  Standardized naming conventions are followed consistently across the codebase, ensuring clarity and uniformity. For instance, boolean flags like ["valid"](https://github.com/Rajwaghela369/ATM-Project/blob/670e259c3710487df09b4f0725d05ac47c1904b8/ATM_Project/Database.py#L43) are used for user verification, adhering to established conventions.
 
-Provided informative comments wherever necessary to facilitate comprehension of the codebase. Comments were utilized to elucidate complex logic or functionalities, aiding others in understanding the code better.
+  4. Informative comments like ([eg](https://github.com/Rajwaghela369/ATM-Project/blob/670e259c3710487df09b4f0725d05ac47c1904b8/ATM_Project/Authentication.py#L32C12-L32C34)) are provided throughout the codebase to clarify complex logic or functionalities. These comments serve as valuable documentation, aiding others in understanding the code better and facilitating collaboration.
+
 ## BUILD AND CI/CD
 ## UNIT TESTS
 ## IDE
