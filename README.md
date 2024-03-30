@@ -34,6 +34,16 @@ The following metrics offer a comprehensive assessment of the code by SonarCloud
   Vulnerabilities: [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Rajwaghela369_ATM-Project&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Rajwaghela369_ATM-Project)
   
 ## Clean Code Developement 
+
+I have included a main [sheet](https://github.com/Rajwaghela369/ATM-Project/blob/main/Cheat%20Sheet/sheet.txt) that served as a guide throughout the development of this application.
+
+Applied constants to prevent redundant code repetition. For example, constants were utilized to avoid duplicating code snippets.
+
+Ensured meaningful names for variables and functions, enhancing code readability and understanding. For instance, variables and functions were named descriptively to convey their purpose clearly.
+
+Followed standardized naming conventions for consistency and clarity across the codebase. For instance, camelCase was employed for variable and function names.
+
+Provided informative comments wherever necessary to facilitate comprehension of the codebase. Comments were utilized to elucidate complex logic or functionalities, aiding others in understanding the code better.
 ## BUILD AND CI/CD
 ## UNIT TESTS
 ## IDE
