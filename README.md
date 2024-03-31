@@ -14,7 +14,7 @@ Use Case Diagram: Shows possible interactions between users and the ATM, coverin
 State Diagram: Describes the various states of the ATM and how they change in response to events, such as idle, processing transactions, and awaiting user input. [Diagram](https://github.com/Rajwaghela369/ATM-Project/blob/main/UML%20Diagrams/Statediagram%20Raj.png)
 
 ## DDD 
-I've outlined the problem space for the ATM project, dividing it into different subdomains.
+I've outlined the [problem space](https://github.com/Rajwaghela369/ATM-Project/blob/main/DDD/Raj%20%20dd%20diagarm.png) for the ATM project, dividing it into different subdomains.
 
 ## METRICS
   
