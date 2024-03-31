@@ -14,6 +14,8 @@ Use Case Diagram: Shows possible interactions between users and the ATM, coverin
 State Diagram: Describes the various states of the ATM and how they change in response to events, such as idle, processing transactions, and awaiting user input. [Diagram](https://github.com/Rajwaghela369/ATM-Project/blob/main/UML%20Diagrams/Statediagram%20Raj.png)
 
 ## DDD 
+I've outlined the problem space for the ATM project, dividing it into different subdomains.
+
 ## METRICS
   
 I employed SonarQube to conduct automated analyses of the ATM project's source code, utilizing a comprehensive set of criteria to evaluate code quality. SonarQube, an open-source tool, facilitates continuous code quality inspection by employing static code analysis to identify bugs, code smells, and other key metrics.
