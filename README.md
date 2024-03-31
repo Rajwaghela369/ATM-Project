@@ -111,3 +111,7 @@ The provided code exhibits functional programming principles through its modular
   6. Statelessness: The ATM class utilizes Streamlit's session state to maintain the [current state](https://github.com/Rajwaghela369/ATM-Project/blob/514b5325e8934db92f834e09473e8b7fce43a6ce/ATM_Project/main.py#L56) of the application. By managing state internally and not relying on external or global state, the code remains more predictable and easier to reason about.
 
 These are some of the functional programming principles observed in the provided code. By adhering to these principles, the code becomes more maintainable, testable, and easier to reason about.
+
+## Outputs
+
+All outputs are available in [ATM ouputs](https://github.com/Rajwaghela369/ATM-Project/tree/main/ATM%20outputs) folder
