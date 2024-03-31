@@ -6,6 +6,13 @@ This repository contains the source code and resources for an ATM (Automated Tel
 ## GIT
 I consistently utilized Git to commit and push my progress for the ATM project to GitHub, ensuring regular updates to the repository. My workflow primarily involved working in Visual Studio Code, where I developed and tested the code. I maintained a consistent cadence of uploading code to GitHub through Visual Studio Code, reflecting my contributions and project activity on the GitHub [contribution chart](https://github.com/Rajwaghela369).
 ## UML Diagrams
+
+Activity Diagram: Illustrates the flow of actions within the ATM system, from login to transaction completion. [Diagram](https://github.com/Rajwaghela369/ATM-Project/blob/main/UML%20Diagrams/Activity%20Raj.png)
+
+Use Case Diagram: Shows possible interactions between users and the ATM, covering actions like login, withdrawals, deposits, and balance inquiries. [Diagram](https://github.com/Rajwaghela369/ATM-Project/blob/main/UML%20Diagrams/Use%20case%20Raj.png)
+
+State Diagram: Describes the various states of the ATM and how they change in response to events, such as idle, processing transactions, and awaiting user input. [Diagram](https://github.com/Rajwaghela369/ATM-Project/blob/main/UML%20Diagrams/Statediagram%20Raj.png)
+
 ## DDD 
 ## METRICS
   
